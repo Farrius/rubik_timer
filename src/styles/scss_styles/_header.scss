@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  max-height: 10vh;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  p {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1265px) {
+  header {
+    max-height: 25vh;
+    img {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  header {
+    max-height: 35vh;
+  }
+}

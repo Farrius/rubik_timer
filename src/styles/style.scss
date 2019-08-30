@@ -1,0 +1,13 @@
+/* Configuracion global */
+@import "./scss_styles/header";
+@import "./scss_styles/variables";
+@import "./scss_styles/main";
+
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: $color_grey;
+}
